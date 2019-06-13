@@ -1,0 +1,14 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.7
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.7.xsd">
+
+    <changeSet author="byku" id="2">
+        <insert schemaName="public"
+                tableName="person">
+            <column name="address" value="Jana Pawła II" type="varchar(255)"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
